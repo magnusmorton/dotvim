@@ -21,3 +21,7 @@ syntax on
 syntax enable
 colorscheme dracula
 filetype plugin on
+
+let mapleader=" "
+nmap <leader><tab> <plug>(fzf-maps-n)
+nnoremap <silent> <leader><Space> :Files<cr>
