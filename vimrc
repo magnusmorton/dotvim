@@ -31,6 +31,6 @@ filetype plugin on
 let mapleader=" "
 nmap <leader><tab> <plug>(fzf-maps-n)
 nnoremap <silent> <leader><Space> :Files<cr>
-
+nmap <leader>t :TagbarToggle<CR>
 set exrc
 set secure
